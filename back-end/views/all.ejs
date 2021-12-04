@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+
+<% let counter = 0 %>
+
+<section>
+
+    <h2 >Recipes Display</h2>
+    <div >
+        <ul >
+            <% for (var i =0; i < recipes.length; i++) { %>
+                <li class="recipesDisplay">
+                    <h3><%= recipes[i].recipe  %></h3>
+                    <a href="http://localhost:3002/api/recipe/<%= recipes[i]._id %>" class="button">READ MORE</a>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+</section>
+
+  
+ 
+<%- include("partials/blog") %>
+
+<%- include("partials/newsletter") %>
+
+<%- include("partials/footer") %>

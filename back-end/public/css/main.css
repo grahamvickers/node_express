@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden{
+    display: none;
+}
+
+/* all css settings */
+
+h2 {
+    font-family: cinder, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    color: #BF5630;
+    margin-bottom: 30px;
+}
+h3 {
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #403E3A;
+    line-height: 30px;
+}
+p {
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #403E3A;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+/* all header customizations */
+
+#promo{
+    background-color: #BF5630;
+}
+
+#promo p{
+    color: #E4E4E4;
+    font-size: 16px;
+    text-align: center;
+}
+header{
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+
+
+#logo{
+    width: 140px;
+    height: auto;
+}
+
+#mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#mainNav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#mainNav a{
+    text-decoration: none;
+    color: #3D464F;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+}
+
+/* all landing area content */
+#landingImg{
+    width: 100%;
+    height: auto;
+}
+
+#landingCon{
+    padding: 30px 40px 30px 40px;
+}
+
+#landing{
+    margin-bottom: 30px;
+}
+
+/* all index recipes content */
+#recipes{
+    padding: 10px 40px 30px 40px;
+}
+
+#recipesHolder1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#recipesHolder2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recipeCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100px;
+    background-color: #BF5630;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #E4E4E4;
+    transition: .3s ease-in-out;
+}
+
+.button:hover{
+    background-color: #3D464F;
+}
+
+.recipeCon img{
+    width: 200px;
+    height: auto;
+}
+
+/* all index blog content */
+
+#blog{
+    background-color: #D9A362; 
+    padding: 30px 40px 30px 40px;
+}
+
+#blog button {
+    background-color: #3D464F;
+    padding: 10px;
+    width: 180px;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+#blog button:hover {
+    background-color: #3d464fcb;
+    cursor: pointer;
+}
+
+#blog a{
+    text-decoration: none;
+    color: #E4E4E4;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+#blog h2{
+    color: #3D464F;
+}
+
+#blog p{
+    color: #E4E4E4;
+    margin-bottom: 30px;
+}
+
+#blogBtn{
+    color: #E4E4E4;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* all index newsletter content */
+
+#newsletter{
+    padding: 30px 40px 30px 40px;
+}
+
+#newsletter p{
+    margin-bottom: 30px;
+}
+
+#newsletter button {
+    background-color: #D9A362;
+    padding: 10px;
+    width: 180px;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+#newsBtn{
+    color: #3D464F;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#newsletter button:hover {
+    background-color: #d9a362d6;
+    cursor: pointer;
+}
+
+#newsletter a{
+    text-decoration: none;
+    color: #3D464F;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* all footer content */
+
+footer{
+    background-color: #3D464F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    color: #E4E4E4;
+    font-size: 16px;
+    padding: 30px 40px 30px 40px;
+
+}
+
+
+
+#footerNav a{
+    text-decoration: none;
+    color: #E4E4E4;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 400;
+}
+
+/* all blog.html content is below */
+
+.postInfo{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#editor{
+    width: 50px;
+    height: auto;
+}
+
+#postContent p{
+
+    padding: 40px;
+    margin-bottom: none;
+}
+
+/* all recipe page content is below */
+#recipeContainer{
+    padding: 30px 40px 30px 40px;
+}
+
+.recipeInfo{
+    margin-bottom: 20px;
+    padding: 20px 20px 40px 20px;
+   
+    
+}
+
+.recipeInfo h2{
+    margin-bottom: 10px;
+}
+.recipeInfo:nth-child(even){
+    margin-bottom: 30px;
+    background: #E4E4E4;
+}
+
+
+.costP{
+    margin-bottom: 20px;
+}
+
+.moreInfo{
+    font-size: 16px;
+    font-weight: 200px;
+}
+
+@media screen and (min-width: 640px) {
+    
+}
+
+/* all desktop changes happen here */
+@media screen and (min-width: 960px) {
+    body{
+        margin: 0 auto;
+        max-width: 1200px;
+        align-content: center;
+    }
+    .hide{
+        display: none;
+    }
+
+    #logo{
+        width: 200px;
+    }
+
+    nav a{
+        padding: 10px;
+        transition: .15s ease-in-out;
+    }
+
+    nav a:hover{
+        color: #E4E4E4;
+        background-color: #BF5630;
+        padding: 5px;
+    }
+    
+    #recipeBoxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .recipeCon img{
+        width: 180px;
+        height: auto;
+    }
+
+    #postContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    #postContent img{
+        width: 50%;
+        padding: 20px;
+
+    }
+
+    #postContent p{
+        width: 50%;
+        padding: 20px;
+
+    }
+
+}
+
+
+
