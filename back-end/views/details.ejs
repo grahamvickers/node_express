@@ -2,14 +2,18 @@
 
 
   <div>
-    <section>
+    <section id="recipeContainer">
     
-      <img src="/images/<%= recipe.img %>" alt="<%= recipe.recipe %> photo">
-      <div>
-        <li><h2><%= recipe.recipe %></h2></li>
-
-        <li><p><%= recipe.bio %></p></li>
-     
+      <div class="recipeInfo">
+        <img src="/images/<%= recipe.img %>" alt="<%= recipe.recipe %> photo">
+        <div>
+          <h2><%= recipe.recipe %></h2>
+          <p><%= recipe.bio %></p>
+          <p class="moreInfo">Prep time: 8 hours</p>
+          <p class="costP moreInfo">Cost: $$</p>
+          <a href="/api/recipes/all" class="button recipeBtn">VIEW ALL</a>
+        </div>
+      </div>
 
       
     </section>

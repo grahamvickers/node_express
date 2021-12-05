@@ -3,19 +3,19 @@
 
 <% let counter = 0 %>
 
-<section>
-
+<section id="recipeContainer">
     <h2 >Recipes Display</h2>
-    <div >
-        <ul >
-            <% for (var i =0; i < recipes.length; i++) { %>
-                <li class="recipesDisplay">
-                    <h3><%= recipes[i].recipe  %></h3>
-                    <a href="http://localhost:3002/api/recipe/<%= recipes[i]._id %>" class="button">READ MORE</a>
-                </li>
-            <% } %>
-        </ul>
-    </div>
+
+        <% for (var i =0; i < recipes.length; i++) { %>
+            <div class="recipeInfo">
+                <img src="/images/<%= recipes[i].thumbnail  %>" alt="<%= recipes[i].recipe  %>">
+                <div>
+                    <h2><%= recipes[i].recipe  %></h2>
+                    <a href="http://localhost:3002/api/recipe/<%= recipes[i]._id %>" class="button">▶ READ MORE</a>
+                </div>
+            </div>
+        <% } %>
+ 
 </section>
 
   
