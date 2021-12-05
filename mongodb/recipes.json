@@ -4,27 +4,35 @@
     "bio": " A true classic with Authentic flavours you can taste!",
     "time": "8 hours",
     "cost": "$$",
-    "img": "jerk_chicken.jpg"
+    "img": "jerk_chicken.jpg",
+    "thumbnail": "jerk_chicken-th.jpg",
+    "recipe_id": "1"
   },
   {
     "recipe": "Kansas City Spatchcock Chicken",
     "bio": "A great dinner for a summer night BBQ with friends!",
     "time": "3.5 hours",
     "cost": "$$",
-    "img": "spatchcock.jpg"
+    "img": "spatchcock.jpg",
+    "thumbnail": "spatchcock-th.jpg",
+    "recipe_id": "1"
   },
   {
     "recipe": "Lemon Pepper Beer Can Chicken",
     "bio": "A weeknight staple that will never let you down!",
     "time": "2.5 hours",
     "cost": "$$",
-    "img": "beercan.jpg"
+    "img": "beercan.jpg",
+    "thumbnail": "beercan-th.jpg",
+    "recipe_id": "1"
   },
   {
     "recipe": "Chicken Lollipops",
     "bio": "A fun twist on a classic drumstick, the kids will love this one!",
     "time": "1.5 hours",
     "cost": "$$",
-    "img": "lollipops.jpg"
+    "img": "lollipops.jpg",
+    "thumbnail": "lollipops-th.jpg",
+    "recipe_id": "1"
   }
 ]
