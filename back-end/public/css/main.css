@@ -333,13 +333,13 @@ footer p{
     nav a{
         padding: 10px;
         color: #3D464F;
-
+        margin-left: 30px;
         transition: .15s ease-in-out;
     }
 
     nav a:hover{
         background: #BF5630;
-        color: #E4E4E4;
+        color: #E4E4E4 !important;
 
         padding: 5px;
     }
