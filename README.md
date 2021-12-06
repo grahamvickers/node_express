@@ -1,6 +1,6 @@
-![](images/logo_v1.svg)
+![](./images/logo_v1.svg)
 
-# Graham Vicker - Node-Express Server with MongoDB
+# Node-Express Server with MongoDB
 
 With this application I have created a food recipe and blog website, my assignment was to create a node-express server to display content from a Mongodb database and display contents and pass multiple API enpoints. The content that is being passed through is recipe data that contains titles, about, prices, imagery and more. Users can click through the endpoint and reveal more data as you move through the directory.
 
