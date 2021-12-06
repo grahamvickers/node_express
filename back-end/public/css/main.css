@@ -294,7 +294,7 @@ footer p{
 }
 
 .recipeInfo h2{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .recipeInfo:nth-child(even){
     margin-bottom: 30px;

@@ -6,7 +6,7 @@ var Recipe = require('../models/Recipes.js');
 
 
 router.get('/', function(req, res, next){
-  res.render('index', {title: 'Welcome'})
+  res.render('index', {title: "Get Smokin'"})
 });
 
 
@@ -21,26 +21,34 @@ router.get('/api/recipes', function(req, res, next) {
 router.get('/api/recipes/all', function(req, res, next) {
   Recipe.find(function (err, recipes) {
     if (err) return next(err);
-    res.render('all', { title: 'Showing All Recipes', recipes:recipes });
+    res.render('all', { title: 'All Recipes', recipes:recipes });
   });
 });
 
 
-router.get('/api/recipes/chicken', function(req, res, next) {
-  Recipe.find({}).sort({'recipe_id': 1}).exec(function (err, recipes) {
+// router.get('/api/recipes/chicken', function(req, res, next) {
+//   Recipe.req.params(({"recipe_id": "1"})).exec(function (err, recipes) {
+//     if (err) return next(err);
+//     res.render('all', { title: 'Chicken Recipes', recipes:recipes });
+//   });
+// });
+
+
+// router.get('/api/recipes/beef', function(req, res, next) {
+//   Recipe.find({'recipe_id': 1}).sort({}).exec(function (err, recipes) {
+//     if (err) return next(err);
+//     res.render('all', { title: 'Beef Recipes', recipes:recipes });
+//   });
+// });
+
+router.get('/api/recipe/:recipe_id', function(req, res, next) {
+  Recipe.findById(req.params.recipe_id, function (err, recipe) {
     if (err) return next(err);
-    res.render('all', { title: 'Chicken Recipes', recipes:recipes });
+    // res.json(recipe);
+    res.render('all', { title: 'Selected Group', recipe });
+
   });
 });
-
-
-router.get('/api/recipes/beef', function(req, res, next) {
-  Recipe.find({'recipe_id': 1}).sort({}).exec(function (err, recipes) {
-    if (err) return next(err);
-    res.render('all', { title: 'Chicken Recipes', recipes:recipes });
-  });
-});
-
 
 router.get('/api/recipe/:id', function(req, res, next) {
   Recipe.findById(req.params.id, function (err, recipe) {
