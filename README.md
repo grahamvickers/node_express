@@ -1,4 +1,4 @@
-![](./images/logo_v1.svg)
+![](./public/images/logo_v1.svg)
 
 # Node-Express Server with MongoDB
 
