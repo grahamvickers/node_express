@@ -6,7 +6,7 @@
     "cost": "$$",
     "img": "jerk_chicken.jpg",
     "thumbnail": "jerk_chicken-th.jpg",
-    "recipe_id": "1"
+    "recipe_type": "chicken"
   },
   {
     "recipe": "Kansas City Spatchcock Chicken",
@@ -15,7 +15,7 @@
     "cost": "$$",
     "img": "spatchcock.jpg",
     "thumbnail": "spatchcock-th.jpg",
-    "recipe_id": "1"
+    "recipe_type": "chicken"
   },
   {
     "recipe": "Lemon Pepper Beer Can Chicken",
@@ -24,7 +24,7 @@
     "cost": "$$",
     "img": "beercan.jpg",
     "thumbnail": "beercan-th.jpg",
-    "recipe_id": "1"
+    "recipe_type": "chicken"
   },
   {
     "recipe": "Chicken Lollipops",
@@ -33,6 +33,6 @@
     "cost": "$$",
     "img": "lollipops.jpg",
     "thumbnail": "lollipops-th.jpg",
-    "recipe_id": "1"
+    "recipe_type": "chicken"
   }
 ]
