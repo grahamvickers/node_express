@@ -6,7 +6,8 @@ var RecipeSchema = new mongoose.Schema({
     bio: String,
     cost: String,
     time: String,
-    img: String
+    img: String,
+    recipe_type: String
 });
 // ,{collection:"recipes"}
 
