@@ -85,6 +85,25 @@ nav ul{
     font-weight: 400;
 }
 
+label{
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-size: 18px;
+}
+
+
+select{
+    width: 120px; 
+    border: none;
+    border-bottom: 2px solid #D9A362;
+    padding: 3px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+        font-size: 16px;
+        color: #2f2f2f;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 20px;
+}
+
 /* all landing area content */
 #landingImg{
     width: 100%;
