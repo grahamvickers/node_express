@@ -88,12 +88,15 @@ nav ul{
 label{
     font-family: 'neuzeit-grotesk', sans-serif;
     font-size: 18px;
-}
+} 
 
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
 
 select{
     width: 120px; 
-    border: none;
+    border: 0px;
     border-bottom: 2px solid #D9A362;
     padding: 3px;
     font-family: 'neuzeit-grotesk', sans-serif;
@@ -331,7 +334,18 @@ footer p{
 }
 
 @media screen and (min-width: 640px) {
-    
+    .recipeInfo{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: none;
+        padding: 30px;
+    }
+    .recipeInfo img{
+        margin-right: 20px;
+    }
+    .recipeInfo h2{
+        margin-bottom: 30px;
+    }
 }
 
 /* all desktop changes happen here */
@@ -372,6 +386,10 @@ footer p{
     .recipeCon img{
         width: 180px;
         height: auto;
+    }
+
+    .recipeInfo h2{
+        margin-bottom: 50px;
     }
 
     #postContent{
