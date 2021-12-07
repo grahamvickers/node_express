@@ -34,5 +34,32 @@
     "img": "lollipops.jpg",
     "thumbnail": "lollipops-th.jpg",
     "recipe_type": "chicken"
+  },
+  {
+    "recipe": "42 Day Dry Aged Tomahawk",
+    "bio": "This will make you never want to order a steak off any menu ever again!",
+    "time": "1.5 hours",
+    "cost": "$$$",
+    "img": "tomahawk.jpg",
+    "thumbnail": "tomahawk-th.jpg",
+    "recipe_type": "beef"
+  },
+  {
+    "recipe": "Char Grilled Pork End Chops",
+    "bio": "The juiciest and most flavorful pork chop you will ever have!",
+    "time": "1 hour",
+    "cost": "$$$",
+    "img": "chop.jpg",
+    "thumbnail": "chop-th.jpg",
+    "recipe_type": "pork"
+  },
+  {
+    "recipe": "Cold Smoked Atlantic Salmon",
+    "bio": "Say goodbye to store bought smoked salmon with this! Served on fresh sourdough with goats cream cheese and honey",
+    "time": "24 hours",
+    "cost": "$$$",
+    "img": "salmon.jpg",
+    "thumbnail": "salmon-th.jpg",
+    "recipe_type": "fish"
   }
 ]
