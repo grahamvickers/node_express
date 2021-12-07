@@ -53,5 +53,5 @@ Then go to - [localhost:3002](https://localhost:3002) - in a web broswer of your
 
 ## Acknowledgments
 
-* Thanks to Marco for teaching me how to create this website.
+* Thanks to Marco for teaching me how to incorporate these technologies.
 
